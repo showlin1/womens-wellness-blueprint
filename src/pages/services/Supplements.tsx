@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, Pill, Shield, Heart, Leaf } from "lucide-react";
+import serviceImage from "@/assets/service-supplements.jpg";
 
 const Supplements = () => {
   return (
@@ -9,17 +10,26 @@ const Supplements = () => {
       {/* Hero */}
       <section className="bg-secondary section-padding">
         <div className="container-wide">
-          <div className="max-w-3xl">
-            <Link to="/services" className="text-primary font-medium mb-4 inline-flex items-center gap-2 text-sm hover:underline">
-              ← Back to Services
-            </Link>
-            <h1 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-6 mt-4">
-              Medical-Grade Supplements
-            </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Pharmaceutical-quality supplements selected and recommended by our physicians 
-              to support your individual health needs and treatment goals.
-            </p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <Link to="/services" className="text-primary font-medium mb-4 inline-flex items-center gap-2 text-sm hover:underline">
+                ← Back to Services
+              </Link>
+              <h1 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-6 mt-4">
+                Medical-Grade Supplements
+              </h1>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Pharmaceutical-quality supplements selected and recommended by our physicians 
+                to support your individual health needs and treatment goals.
+              </p>
+            </div>
+            <div className="rounded-2xl overflow-hidden">
+              <img 
+                src={serviceImage} 
+                alt="Premium medical-grade vitamin supplements and capsules" 
+                className="w-full h-auto object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>

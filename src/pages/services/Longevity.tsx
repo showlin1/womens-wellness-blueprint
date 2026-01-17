@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, Clock, Activity, Brain, Heart, Shield, Sparkles } from "lucide-react";
+import serviceImage from "@/assets/service-longevity.jpg";
 
 const Longevity = () => {
   return (
@@ -143,8 +144,12 @@ const Longevity = () => {
       <section className="section-padding">
         <div className="container-wide">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="bg-sage-light rounded-2xl aspect-square flex items-center justify-center">
-              <Clock className="w-32 h-32 text-primary/30" />
+            <div className="rounded-2xl overflow-hidden aspect-square">
+              <img 
+                src={serviceImage} 
+                alt="Vibrant woman doing yoga outdoors for longevity" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h2 className="font-serif text-2xl md:text-3xl font-semibold text-foreground mb-6">

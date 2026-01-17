@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle2, Heart, Moon, Thermometer, Brain, Zap } from "lucide-react";
+import { ArrowRight, CheckCircle2, Heart, Moon, Brain, Zap } from "lucide-react";
+import serviceImage from "@/assets/service-menopause-hrt.jpg";
 
 const MenopauseHRT = () => {
   return (
@@ -133,8 +134,12 @@ const MenopauseHRT = () => {
       <section className="section-padding">
         <div className="container-wide">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="bg-sage-light rounded-2xl aspect-square flex items-center justify-center order-2 lg:order-1">
-              <Thermometer className="w-32 h-32 text-primary/30" />
+            <div className="rounded-2xl overflow-hidden aspect-square order-2 lg:order-1">
+              <img 
+                src={serviceImage} 
+                alt="Woman during menopause consultation" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="order-1 lg:order-2">
               <h2 className="font-serif text-2xl md:text-3xl font-semibold text-foreground mb-6">

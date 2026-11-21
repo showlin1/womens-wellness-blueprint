@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# Bloom Women's Wellness
 
-## Project info
+You are a professional medical website copywriter and healthcare content strategist.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Create a full, professional, women-focused medical clinic website with a clean, trustworthy, and modern tone.
+The website is designed exclusively for women. Men-related services should NOT be included or mentioned, as they will be added later and remain hidden for now.
 
-## How can I edit this code?
+TARGET AUDIENCE:
+Women of all adult age groups, with special focus on hormone health, menopause, weight management, skin care, diagnostics, and long-term wellness.
 
-There are several ways of editing your application.
+TONE & STYLE:
+- Professional, clinical, and trustworthy
+- Clear and patient-friendly language
+- Evidence-based and ethical (no exaggerated claims)
+- Warm, supportive, and empowering
+- Suitable for a licensed medical clinic
 
-**Use Lovable**
+WEBSITE STRUCTURE TO GENERATE:
+1. Home Page
+2. About Us
+3. Services Overview
+4. Individual Service Pages:
+   - Women’s Weight Loss
+   - Menopause & Hormone Replacement Therapy (HRT)
+   - Lab Tests & Diagnostics
+   - Medical Skin Care
+   - Supplements
+   - Longevity & Preventive Care
+5. Patient Journey / How It Works
+6. Resources / Education
+7. Contact / Book Appointment
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+CONTENT REQUIREMENTS:
+- Write complete, ready-to-use website content for every page.
+- Each service page must include:
+  - Professional headline
+  - Clear service explanation
+  - Problems or symptoms addressed
+  - Benefits or outcomes
+- Content must be medically responsible and patient-centered.
+- No marketing hype or sales pressure.
+- Focus on personalization, diagnostics, safety, and long-term wellness.
+- Use women-centered language throughout.
 
-Changes made via Lovable will be committed automatically to this repo.
+IMPORTANT NOTES:
+- Do NOT include content for men or male hormone therapy.
+- Assume the clinic offers consultation, lab testing, and personalized care plans.
+- Avoid legal or medical disclaimers unless necessary.
+- Write in polished, professional English suitable for a healthcare website.
 
-**Use your preferred IDE**
+Deliver the content in a clear, structured format with proper headings for each page.
+Optimize the content for SEO with natural keywords related to women’s health, menopause, weight loss, and preventive care, without keyword stuffing.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project was built with [Lovable](https://lovable.dev).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Live app**: https://womens-wellness-blueprint.lovable.app
 
-Follow these steps:
+## Build with Lovable
+
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/9d8321e7-5652-4f3a-bda0-dc936a847cb2).
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+git clone <this-repository-url>
+cd <repository-name>
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
